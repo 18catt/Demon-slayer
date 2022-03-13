@@ -6,92 +6,184 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Demon Slayer:Kimetsu No Yaaba</title>
-  <link rel="icon" href="https://cdn.shopify.com/s/files/1/0250/0077/1659/products/demonslayer_769872d4-a9a5-4897-ac06-de7fe27c9a33_480x.png?v=1611079977">
+  <link rel="icon"
+    href="https://cdn.shopify.com/s/files/1/0250/0077/1659/products/demonslayer_769872d4-a9a5-4897-ac06-de7fe27c9a33_480x.png?v=1611079977">
 </head>
 <style>
   header {
     margin: 8rem 18rem 0rem 18rem;
   }
+
   #logo {
     width: 100%;
     margin-bottom: 8rem;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
+
   #define {
     background-image: url(https://wallpaperaccess.com/full/2827069.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 120rem;
+    background-size: cover;
+    color: black;
+    text-shadow: 0 0 100px rgb(8, 8, 8);
     font-size: 80px;
-
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 8rem 18rem 0rem 18rem;
+    height: 100%;
+    flex-wrap: wrap;
   }
 
   #define h1 {
-    float: right;
-    margin-top: 1000px;
-    margin-right: 15rem;
+    padding-left: 2500px;
+    padding-top: 25vh;
     font-size: 250px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    display: block;
+    position: relative;
   }
 
   #define p {
-    padding-left: 160rem;
-    text-shadow: 0 0 100px rgb(238, 238, 238);
+    padding-left: 2500px;
   }
 
   #button {
-    margin-top: 100px;
-    margin-left: 160rem;
+    margin-top: 40px;
+    padding-left: 2500px;
+    padding-bottom: 8vh;
   }
 
   #button button {
     height: 180px;
     width: 700px;
     font-size: 55px;
-    background-color: rgb(253, 253, 253);
-    border: rgb(135, 158, 163);
+    background-color: rgb(15, 15, 15);
+    transition: ease-in-out;
+  }
+
+  #button button:hover {
+    opacity: 0.7;
+    color: black;
   }
 
   #onep {
-
     background-image: url(https://wallpapercave.com/wp/wp4771906.jpg);
     background-repeat: no-repeat;
     height: 3000px;
     background-size: cover;
     width: 100%;
-    margin-right: 71rem;
-  }
-  section {
-    margin: 0rem 18rem 18rem 18rem;
-    display: grid;
-    grid-template-columns: auto auto;
+    overflow: hidden;
   }
 
-  #poster p {
-    font-size: 120px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    padding-left: 200px;
-    padding-right: 40vw;
-    padding-top: 40vh;
-    text-shadow: 0 0 50px black;
+  .movie {
+    height: 900px;
+    background-repeat: no-repeat;
+    margin: 0rem 0rem 7rem 7rem;
+  }
+
+  #grid {
+    margin: 0rem 18rem 18rem 18rem;
+    display: grid;
+    grid-template-columns: 2880px 2000px;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  #grid div {
+    overflow: hidden;
+  }
+
+  #read {
+    margin: 18rem;
+    height: 180px;
+    width: 700px;
+    font-size: 55px;
+    background-color: white;
+    border: white;
+    transition: ease-in-out;
+  }
+
+  #read:hover {
+    background-color: black;
+  }
+
+  #animation:hover .ron {
+    transition-timing-function: ease-in-out;
+    transition: 2s;
+    padding-top: 36rem;
   }
 
   #poster {
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00062df0-faf0-4acf-b9a4-c71d134bc6b7/ddguocg-01c1ca47-2e32-4400-bc79-9dd2d8880311.png/v1/fill/w_1567,h_510,q_70,strp/hashira_by_saetoraa_ddguocg-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwMDYyZGYwLWZhZjAtNGFjZi1iOWE0LWM3MWQxMzRiYzZiN1wvZGRndW9jZy0wMWMxY2E0Ny0yZTMyLTQ0MDAtYmM3OS05ZGQyZDg4ODAzMTEucG5nIiwiaGVpZ2h0IjoiPD02MjUiLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC8wMDA2MmRmMC1mYWYwLTRhY2YtYjlhNC1jNzFkMTM0YmM2YjdcL3NhZXRvcmFhLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.nKhcFHcp5oUntt9qXwDfLF0xUOG2dZgdQutEP2UY6uY);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 1700px;
-    border: 80px solid black;
-    margin: 0;
-    padding: 0;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  #poster img {
+    width: 100%;
+  }
+
+  #poster p {
+    text-align: left;
+    font-size: 5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 0 0 50px black;
+    position: absolute;
+    bottom: 150px;
+    left: 200px;
+    overflow-wrap: break-word;
+    overflow: hidden;
   }
 
   .images {
     display: flex;
     justify-content: center;
-    margin-top: 500px;
+    flex-wrap: wrap;
+    transition-delay: 5s;
+  }
+
+  #animation:hover #doma {
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    transform: translate(2930px, -715px);
+  }
+
+  #animation:hover #akaza {
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    transform: translate(1655px, -130px);
+  }
+
+  #animation:hover #nakime {
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    transform: translate(380px, 465px);
+  }
+
+  #animation:hover #daki {
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    transform: translate(-900px, 1060px);
+  }
+
+  #up h2 {
+    position: absolute;
+    font-size: 150px;
+    padding-left: 18rem;
+    padding-bottom: 0;
+    padding-right: 0;
+    bottom: 100%;
+    transition: 2s;
+    transition-timing-function: ease-out;
+  }
+
+  #animation:hover #up h2 {
+    bottom: 70%;
   }
 
   .write {
@@ -99,6 +191,13 @@
     justify-content: center;
     color: rgb(104, 104, 104);
     margin-top: 200px;
+    flex-wrap: wrap;
+  }
+
+  #animation:hover .write {
+    transition: ease-in-out;
+    transition: 2s;
+    transform: translateY(900px);
   }
 
   #animation {
@@ -107,11 +206,13 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
+    position: relative;
   }
 
   .on {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   .on img {
@@ -124,8 +225,9 @@
 
   #touch {
     font-size: 70px;
-    margin: 18rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times;
+    padding-left: 200px;
+    padding-bottom: 200px;
   }
 
   #touch button {
@@ -135,91 +237,110 @@
     background-color: rgb(221, 223, 223);
     border: white;
     color: rgb(121, 121, 121);
+    transition: ease-in-out;
+  }
+
+  #touch button:hover {
+    background-color: black;
   }
 
   #home {
     background-color: rgb(243, 245, 245);
     color: rgb(121, 121, 121);
-    height: 50vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
-  a:link{
+  #home .lists{
+    padding: 300px;
+  }
+  a:link {
     color: rgb(160, 159, 159);
     text-decoration: none;
   }
-  a:visited{
+
+  a:visited {
     color: rgb(160, 159, 159);
   }
 </style>
+
 <body>
   <header>
     <div id="logo">
-     <div> <img
-        src="https://cdn.shopify.com/s/files/1/0250/0077/1659/products/demonslayer_769872d4-a9a5-4897-ac06-de7fe27c9a33_480x.png?v=1611079977"
-        alt="error" width="300px">
-     </div>
-        <div id="menu">
-          <img src="https://toppng.com/uploads/preview/menu-icon-png-3-lines-11552729023jws2rdggar.png" alt="error" width="80px">
-        </div>
-    </div>
-    <div id="define">
-      <h1>Entertainment Arc</h1>
-      <p>The new arc features sound hashira Tengen <br> Uzui and his three wives. Upper moon six <br> as antagonist.</p>
-      <div id="button">
-        <button><a href="https://gogoanime.fi/category/kimetsu-no-yaiba-yuukaku-hen">Watch Now</a></button>
+      <div> <img
+          src="https://cdn.shopify.com/s/files/1/0250/0077/1659/products/demonslayer_769872d4-a9a5-4897-ac06-de7fe27c9a33_480x.png?v=1611079977"
+          alt="error" width="300px">
+      </div>
+      <div id="menu">
+        <img src="https://toppng.com/uploads/preview/menu-icon-png-3-lines-11552729023jws2rdggar.png" alt="error"
+          width="80px">
       </div>
     </div>
   </header>
   <main>
+    <section>
+      <div id="define">
+        <h1>Entertainment Arc</h1>
+        <p>The new arc features sound hashira Tengen <br> Uzui and his three wives. Upper moon six <br> as antagonist.
+        </p>
+        <div id="button">
+          <button><a href="https://gogoanime.fi/category/kimetsu-no-yaiba-yuukaku-hen">Watch Now</a></button>
+        </div>
+    </section>
     <section id="grid">
       <a id="onep" href="https://gogoanime.fi/category/kimetsu-no-yaiba">
         <h2 style="font-size: 55px;font-family: Verdana, Geneva, Tahoma, sans-serif; color: white; padding: 80px;">
           Season 1</h2>
-        </a>
-      </div>
+      </a>
       <div>
-        <a href="https://gogoanime.fi/category/kimetsu-no-yaiba-movie-mugen-ressha-hen"><div style=" background-image: url(https://wallpaperaccess.com/full/6425117.png);height: 900px; background-repeat: no-repeat; margin: 0rem 0rem 7rem 7rem;">
-          <h2 style="font-size: 55px;font-family: Verdana, Geneva, Tahoma, sans-serif; color: white; padding: 80px;">
-            Mugen Train Movie</h2>
-          </div></a>
-        <a href="https://gogoanime.fi/category/kimetsu-no-yaiba-mugen-ressha-hen"><div style=" background-image: url(https://i0.wp.com/anitrendz.net/news/wp-content/uploads/2020/11/Demon-Slayer-Kimetsu-no-Yaiba-Mugen-Train.png); height: 900px; background-repeat: no-repeat; margin: 0rem 0rem 7rem 7rem;">
-          <h2 style="font-size: 55px;font-family: Verdana, Geneva, Tahoma, sans-serif; color: white; padding: 80px;">
-            Mugen Train Arc</h2>
-          </div></a>
-        <a href="https://www.youtube.com/watch?v=n5ZDsygpAG0"><div style=" background-image: url(https://www.whatspaper.com/wp-content/uploads/2022/02/hd-douma-wallpaper-whatspaper-12.jpg) ;
-        height: 900px;
-        background-repeat: no-repeat;
-        margin: 0rem 0rem 7rem 7rem;">
-          <h2 style="font-size: 55px;font-family:Verdana, Geneva, Tahoma, sans-serif; color: white; padding: 80px;"> New
-            Arc trailer</h2>
-          </div></a>
+        <a href="https://gogoanime.fi/category/kimetsu-no-yaiba-movie-mugen-ressha-hen">
+          <div class="movie" style=" background-image: url(https://wallpaperaccess.com/full/6425117.png);">
+            <h2 style="font-size: 55px;font-family: Verdana, Geneva, Tahoma, sans-serif; color: white; padding: 80px;">
+              Mugen Train Movie</h2>
+          </div>
+        </a>
+        <a href="https://gogoanime.fi/category/kimetsu-no-yaiba-mugen-ressha-hen">
+          <div class="movie"
+            style=" background-image: url(https://i0.wp.com/anitrendz.net/news/wp-content/uploads/2020/11/Demon-Slayer-Kimetsu-no-Yaiba-Mugen-Train.png);">
+            <h2 style="font-size: 55px;font-family: Verdana, Geneva, Tahoma, sans-serif; color: white; padding: 80px;">
+              Mugen Train Arc</h2>
+          </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=n5ZDsygpAG0">
+          <div class="movie"
+            style=" background-image: url(https://www.whatspaper.com/wp-content/uploads/2022/02/hd-douma-wallpaper-whatspaper-12.jpg) ;">
+            <h2 style="font-size: 55px;font-family:Verdana, Geneva, Tahoma, sans-serif; color: white; padding: 80px;">
+              New
+              Arc trailer</h2>
+          </div>
+        </a>
       </div>
     </section>
     <div id="animation">
+      <div id="up">
+        <h2>Upper Rank Demon <br> line up: </h2>
+      </div>
+      <div class="ron">
+        <button id="read"><a href="https://www.cbr.com/demon-slayer-strongest-demon-moons/">Read Now</a></button>
+      </div>
       <div>
-        <button style=" margin: 200px;
-         height: 180px;
-        width: 700px;
-        font-size: 55px;
-        background-color:white;
-        border: white;"><a href="https://www.cbr.com/demon-slayer-strongest-demon-moons/">Read Now</a></button>
         <img
           src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/06/Kokushibo-in-Demon-Slayer.jpg?q=50&fit=crop&w=740&dpr=1.5"
-          alt="error" width="1200px" style="margin-left: 2000px;">
+          alt="error" width="1200px" style="position: absolute; top: 20px; right: 1078.5px ;">
       </div>
       <div class="images">
-        <img
+        <img id="doma"
           src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/10/Doma-in-Demon-Slayer-Cropped.jpg?q=50&fit=crop&w=740&dpr=1.5"
           alt="error" width="1200px" style="margin-right: 40px;">
-        <img
+        <img id="akaza"
           src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/08/Akaza-in-Demon-Slayer-Cropped.jpg?q=50&fit=crop&w=740&dpr=1.5"
           alt="error" width="1200px" style="margin-right: 40px;margin-left: 40px;">
-        <img
+        <img id="nakime"
           src="https://static0.cbrimages.com/wordpress/wp-content/uploads/2019/10/Nakime-demon-slayer-Cropped.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5"
           alt="error" width="1200px" style="margin-right: 40px; margin-left: 40px;">
-        <img
+        <img id="daki"
           src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/09/Daki-And-Gyutaro-in-Demon-Slayer-Cropped.jpg?q=50&fit=crop&w=740&dpr=1.5"
           alt="error" width="1200px" style="margin-left: 40px;">
       </div>
@@ -249,8 +370,11 @@
       </div>
     </div>
     <div id="poster">
-      <p>The Hashiras are the pillars of the Demon Slayer Corps. They are humanity's last line of defence against
-        demons.</p>
+      <img
+        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00062df0-faf0-4acf-b9a4-c71d134bc6b7/ddguocg-01c1ca47-2e32-4400-bc79-9dd2d8880311.png/v1/fill/w_1567,h_510,q_70,strp/hashira_by_saetoraa_ddguocg-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwMDYyZGYwLWZhZjAtNGFjZi1iOWE0LWM3MWQxMzRiYzZiN1wvZGRndW9jZy0wMWMxY2E0Ny0yZTMyLTQ0MDAtYmM3OS05ZGQyZDg4ODAzMTEucG5nIiwiaGVpZ2h0IjoiPD02MjUiLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC8wMDA2MmRmMC1mYWYwLTRhY2YtYjlhNC1jNzFkMTM0YmM2YjdcL3NhZXRvcmFhLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.nKhcFHcp5oUntt9qXwDfLF0xUOG2dZgdQutEP2UY6uY"
+        alt="error">
+      <p>The Hashiras are the pillars of the Demon <br> Slayer Corps. They are humanity's last line of defence <br>
+        against demons.</p>
     </div>
     <div id="features">
       <h1 style="text-align: center; font-size: 180px; font-family: 'Courier New', Courier;">Original Network</h1>
@@ -275,32 +399,35 @@
         <button>Sign Up</button>
       </div>
       <div id="home">
-        <div style="margin: 0px 300px 0px 300px;">
+        <div class="lists">
           <img
             src="https://cdn.shopify.com/s/files/1/0250/0077/1659/products/demonslayer_769872d4-a9a5-4897-ac06-de7fe27c9a33_480x.png?v=1611079977"
             alt="error" width="150px">
         </div>
-        <div>
-          <ul style="list-style: none; font-size: 57px; color: rgb(160, 159, 159); display: flex; flex-direction: column; margin: 0px 300px 0px 300px; line-height: 1.5em;">
-          <li><a href="https://demonslayer-world.com/home/">Shop Merches</a></li> 
-          <li><a href="https://www.amazon.in/Demon-Slayer-Complete-Box-Set/dp/1974725952">Shop Manga</a></li>
-          <li><a href="https://animeukiyo.com/demon-slayer-manga-order/">About Manga</a></li>
-          <li><a href="https://time.com/5941594/what-is-demon-slayer-about/">About Demon Slayer</a></li>
+        <div class="lists">
+          <ul
+            style="list-style: none; font-size: 57px; color: rgb(160, 159, 159); display: flex; flex-direction: column; line-height: 1.5em;">
+            <li><a href="https://demonslayer-world.com/home/">Shop Merches</a></li>
+            <li><a href="https://www.amazon.in/Demon-Slayer-Complete-Box-Set/dp/1974725952">Shop Manga</a></li>
+            <li><a href="https://animeukiyo.com/demon-slayer-manga-order/">About Manga</a></li>
+            <li><a href="https://time.com/5941594/what-is-demon-slayer-about/">About Demon Slayer</a></li>
           </ul>
         </div>
-        <div>
-          <ul style="list-style: none; font-size: 57px; color: rgb(160, 159, 159); display: flex; flex-direction: column; margin: 0px 300px 0px 300px; line-height: 1.5em;">
-         <li>Help</li>
-         <li>Returns</li>
-         <li>Contact</li>
-         <li>Policies</li>
-         </ul>
+        <div class="lists">
+          <ul
+            style="list-style: none; font-size: 57px; color: rgb(160, 159, 159); display: flex; flex-direction: column; line-height: 1.5em;">
+            <li>Help</li>
+            <li>Returns</li>
+            <li>Contact</li>
+            <li>Policies</li>
+          </ul>
         </div>
-        <div>
-         <a href="https://www.instagram.com/kimetsunoyaiiba/?hl=en"><img src="https://www.vhv.rs/dpng/d/35-358865_instagram-logo-grey-transparent-hd-png-download.png"
-            alt="error" width="80px" style="margin: 0px 300px 0px 300px;"></a>
+        <div class="lists">
+          <a href="https://www.instagram.com/kimetsunoyaiiba/?hl=en"><img
+              src="https://www.vhv.rs/dpng/d/35-358865_instagram-logo-grey-transparent-hd-png-download.png" alt="error"
+              width="80px"></a>
         </div>
-        <div style="font-size: 57px; color: rgb(160, 159, 159); margin: 0px 200px 0px 200px; line-height: 1.5em;">
+        <div class="lists" style="font-size: 57px; color: rgb(160, 159, 159); line-height: 1.5em;">
           Sign up for our newsletter to <br> get the latest news, <br> announcements, and special <br> offers
         </div>
       </div>
